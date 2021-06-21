@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML &amp; CSS</title>
+    <style>
+        @keyframes blink {
+            0% {color: red;text-shadow: 0 0 20px darkred;}
+            25% {color: yellow;text-shadow: 0 0 20px orange;}
+            50% {color: blue;text-shadow: 0 0 20px darkblue;}
+            100% {color: red;text-shadow: 0 0 20px darkred;}
+        }
+        @font-face{
+            font-family: Lalezar-Regular;
+            src: url(Lalezar-Regular.ttf);
+        }
+        @font-face{
+            font-family:Vazir;
+            src: url(Vazir.ttf);
+        }
+        body{
+            background-image: url("light_bumpy_paper-web_background.jpg");
+            background-repeat: repeat;
+        }
+        h1{
+            text-align: center;
+            animation: blink 5s infinite;
+            margin: 50px;
+            font-size: 100px;
+            font-family: sans-serif;
+        }
+        a{
+            font-family: sans-serif;
+        }
+        p{
+            direction: rtl;
+            font-family:Vazir;
+            font-size: 20px;
+        }
+        h2{
+            direction: rtl;
+            font-family: Lalezar-Regular;
+            font-size: 33px;
+            text-shadow: 0 0 25px blue;
+
+        }
+        section{
+            border-style: solid;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            background-color: cyan;
+        }
+        footer{
+            background-color: green;
+            height: 30px;
+            font-size: 17px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        div{
+            color: white;
+            font-family:Vazir;
+        }
+        .link{
+            margin-left: 60px;
+            font-size: 18px;
+            transition: all 0.5s;
+        }
+        .link:hover{
+            font-size: 20px;
+            opacity: 0.5;
+        }
+        pre code {
+            background-color: #eee;
+            border: 1px solid #999;
+            display: block;
+            padding: 20px;
+            width: 450px;
+            margin-left: 300px;
+            font-size: 15px;
+            line-height: 20px;
+           color: #a67f59;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+       }
+        .ex1{
+	        color: #2f9c0a;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>« HTML &amp; CSS »</h1>
+    
+    <section>
+        <h2>جلسه اول</h2>
+        <p>&star; لینک آموزش ساخت اکانت گیت هاب  :</p>
+        <a href="https://drive.google.com/file/d/1hQcAqjVow_KRmMlySNimzWwKZaAoRk5a/view?usp=sharing" class="link" target="_blank">https://drive.google.com/file/d/1hQcAqjVow_KRmMlySNimzWwKZaAoRk5a/view?usp=sharing</a>
+        <hr color="black">
+        <p>&star; لینک سایت گیت هاب :</p>
+        <a href="https://github.com/" class="link" target="_blank">https://github.com/</a>
+        <hr color="black">
+        <p>&star; اسلاید های تدریس :</p>
+        <a href="https://drive.google.com/file/d/1XaI4EFcfstD6-xroCNtQ4LPo3uDoXjSL/view?usp=sharing" class="link" target="_blank">https://drive.google.com/file/d/1XaI4EFcfstD6-xroCNtQ4LPo3uDoXjSL/view?usp=sharing</a>
+        <hr color="black">
+        <p>&star; راه ارتباطی :</p>
+        <a href="mailto:ehsanfalahati2006@gmail.com" class="link" target="_blank">ehsanfalahati2006@gmail.com</a>
+    </section>
+    
+    <section>
+        <h2>جلسه دوم</h2>
+        <p>&star; لینک فایل ضبط جلسه :</p>
+        <a href="https://drive.google.com/file/d/198I7EpcI6_W8_qGm0L7LGUNX43vsQ7SD/view?usp=sharing" class="link" target="_blank">https://drive.google.com/file/d/198I7EpcI6_W8_qGm0L7LGUNX43vsQ7SD/view?usp=sharing</a>
+        <hr color="black">
+        <p>&star; کد تمرین اول :</p>
+       <pre>
+        <code>
+      1       <span class="ex1">&lt;!doctype html&gt;</span>
+      2       <span class="ex2">&lt;html dir="rtl"&gt;</span>
+      3       <span class="ex1">   &lt;head&gt;</span>
+      4       <span class="ex2">      &lt;meta charset="utf-8"&gt;</span>
+      5       <span class="ex1">      &lt;title&gt;1 تمرین&lt;/title&gt;</span>
+      6       <span class="ex2">   &lt;/head&gt;</span>
+      7       <span class="ex1">   &lt;body&gt;</span>
+      8       <span class="ex2">      &lt;p&gt;اولین کدی که نوشته ام !&lt;/p&gt;</span>
+      9       <span class="ex1">   &lt;/body&gt;</span>
+     10       <span class="ex2">&lt;/html&gt;</span>
+        </code>
+       </pre>
+    </section>
+    
+    <section>
+        <h2>جلسه سوم</h2>
+    </section>
+    
+    <section>
+        <h2>جلسه چهارم</h2>
+    </section>
+    
+    <section>
+        <h2>جلسه پنجم</h2>
+    </section>
+    
+    <section>
+        <h2>جلسه ششم</h2>
+    </section>
+    
+    <section>
+        <h2>جلسه هفتم</h2>
+    </section>
+    
+    <footer>
+       <div>&copy;2021 <a href="https://mohebanolhaidar.ir/">Mohebanolheidar</a> cultural group. All rights reserved</div>
+    </footer>
+    </body>
+</html>
