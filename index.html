@@ -8,6 +8,13 @@
     window.alert("در قسمت جلسه دوم، حتماً فیلم آموزش نحوه آپلود کردن فایل در گیت هاب را مشاهده و لینک تمرین خود را ایمیل کنید.")
     </script>
     <style>
+        .note{
+            text-align: center;
+            font-family: Vazir;
+            background-color: yellow;
+            color: red;
+            
+        }
         @keyframes blink {
             0% {color: red;text-shadow: 0 0 20px darkred;}
             25% {color: yellow;text-shadow: 0 0 20px orange;}
@@ -98,14 +105,19 @@
         }
         .important{
             animation: alert 1.5s infinite;
-        }
-     @media (min-width: 250px) and (max-width: 480px) {
+            
+      @media (min-width: 250px) and (max-width: 480px) {
   
          .link{
              font-size: 2px;
              width: 150px;
              margin-left: 10px;
+             color:red;
          }
+        .link:hover{
+            font-size: 2px;
+            opacity: 0.5;
+        }
          footer{
              font-size: 13px;
          }
@@ -156,13 +168,14 @@
             }
             
         }
-        
 
     </style>
 </head>
 
 <body>
     <h1>« HTML &amp; CSS »</h1>
+    
+    <article class="note"> مشکل خراب نشان داده شدن سایت در موبایل به زودی رفع خواهد شد</article>
     
     <section>
         <h2>جلسه اول</h2>
