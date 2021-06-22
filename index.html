@@ -205,7 +205,7 @@
          <hr color="black">
          <p>&star; برای راحتی کار همینجا یه محلی برای فرستادن تمرین درست کردم که دیگه لازم به ایمیل زدن نباشه :)</p>
         <form id="contactForm">
-
+          <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
                     <input type="text" class="form-control" id="name" name="name" placeholder="نام" required data-error="Please enter your name">
@@ -215,16 +215,19 @@
                     <input type="text" placeholder="ایمیل شما" id="email" class="form-control" name="name" required data-error="Please enter your email">
                     <div class="help-block with-errors"></div>
                 </div>
+            </div>
+            <div class="col-md-12">
                 <div class="form-group">
                     <textarea class="form-control" id="message" placeholder="لینک تمرین خود را وارد کنید" rows="4" data-error="Write your message" required></textarea>
                     <div class="help-block with-errors"></div>
                 </div>
-            </div>
-            <div class="submit-button text-center">
+               <div class="submit-button text-center">
                  <button class="btn hvr-hover" id="submit" type="submit">ارسال تمرین</button>
                  <div id="msgSubmit" class="h3 text-center hidden"></div>
                  <div class="clearfix"></div>
-            </div>
+               </div>
+           </div>
+          </div>
         </form>
     </section>
     
