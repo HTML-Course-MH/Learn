@@ -25,7 +25,7 @@ if (empty($_POST["message"])) {
 
 
 $EmailTo = "ehsanfalahati2006@gmail.com";
-// $Subject = ["subject"];
+ $Subject = ["subject"];
 
 // prepare email body text
 $Body = "";
@@ -35,9 +35,6 @@ $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $email;
 $Body .= "\n";
-// $Body .= "event: ";
-// $Body .= $event;
-// $Body .= "\n";
 $Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
